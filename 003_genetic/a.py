@@ -1,0 +1,1 @@
+print(" ".join([ str(int(i) + 1) for i in open("res1.log").read().split()]))
